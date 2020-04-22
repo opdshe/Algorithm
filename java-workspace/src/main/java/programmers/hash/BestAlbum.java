@@ -1,6 +1,4 @@
-package Programmers.Hash;
-
-import com.sun.tools.javac.jvm.Gen;
+package programmers.hash;
 
 import java.util.*;
 

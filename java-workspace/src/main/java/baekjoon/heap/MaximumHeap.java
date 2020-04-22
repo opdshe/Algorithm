@@ -1,4 +1,4 @@
-package BaekJoon.Heap;
+package baekjoon.heap;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

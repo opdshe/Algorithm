@@ -1,12 +1,11 @@
-package BaekJoon.Heap;
+package baekjoon.heap;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class AbsoluteHeap {
+public class MinimumHeap {
     public static void main(String[] args) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(new myComparator());
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
         Scanner sc = new Scanner(System.in);
         int testCase = sc.nextInt();
         while (testCase > 0) {
@@ -23,21 +22,5 @@ public class AbsoluteHeap {
             }
             testCase--;
         }
-    }
-}
-
-class myComparator implements Comparator<Integer> {
-    @Override
-    public int compare(Integer o1, Integer o2) {
-        if (Math.abs(o1) > Math.abs(o2)) {
-            return 2;
-        } else if (Math.abs(o1) == Math.abs(o2)) {
-            if (o1 > o2) {
-                return 1;
-            } else {
-                return -1;
-            }
-        }
-        return -2;
     }
 }

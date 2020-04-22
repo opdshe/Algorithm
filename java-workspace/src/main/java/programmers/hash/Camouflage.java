@@ -1,7 +1,6 @@
-package Programmers.Hash;
+package programmers.hash;
 
 import java.util.HashMap;
-import java.util.Optional;
 
 public class Camouflage {
     public static void main(String[] args) {
