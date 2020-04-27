@@ -7,6 +7,7 @@ public class Solution {
     public static void main(String[] args) {
         solution( new int[][]{{5,-1,4},{6,3,-1},{2,-1,1}}, 1, 0, new String[] {"go","go","right","go","right","go","left","go"});
     }
+
     public static int solution(int[][] office, int r, int c, String[] move) {
         Robot myRobot = new Robot(office, r, c);
         myRobot.clean();
@@ -77,6 +78,7 @@ class Robot {
                 break;
         }
     }
+
     public void clean () {
         totalCleaning += board[coord.fst][coord.snd];
         board[coord.fst][coord.snd] = 0;
