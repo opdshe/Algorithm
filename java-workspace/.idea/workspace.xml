@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/괄호_변환.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/kakaoBlindRecruit_2020/괄호_변환Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2018/n진수_게임.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2020/문자열_압축.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2020/문자열_압축.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.괄호_변환">
+  <component name="RunManager" selected="Application.n진수_게임">
     <configuration name="후보키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2019.후보키" />
       <module name="java-workspace.main" />
@@ -134,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문자열_압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.문자열_압축" />
+    <configuration name="괄호_변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.괄호_변환" />
       <module name="java-workspace.main" />
       <extension name="coverage">
         <pattern>
@@ -147,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="괄호_변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.괄호_변환" />
+    <configuration name="n진수_게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.n진수_게임" />
       <module name="java-workspace.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.n진수_게임" />
         <item itemvalue="Application.괄호_변환" />
         <item itemvalue="JUnit.괄호_변환Test.올바른_괄호_확인" />
         <item itemvalue="Gradle.괄호_변환Test.올바른_괄호_확인" />
         <item itemvalue="Gradle.괄호_변환Test" />
-        <item itemvalue="Application.문자열_압축" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +244,7 @@
       <workItem from="1587960420227" duration="694000" />
       <workItem from="1587993345417" duration="5050000" />
       <workItem from="1587999916840" duration="15000" />
-      <workItem from="1588319430116" duration="19033000" />
+      <workItem from="1588319430116" duration="24995000" />
     </task>
     <servers />
   </component>
@@ -273,22 +268,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587967339502" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588351249495">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588402206138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588351249495" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588351249495">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588402206138" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588402206138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588351249495" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588351249494">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588402206138" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588402206138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588351249494" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588351249495">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588402206138" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588402206138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588351249495" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588402206138" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588348774598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
