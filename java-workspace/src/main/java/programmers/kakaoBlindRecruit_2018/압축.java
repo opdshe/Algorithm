@@ -2,7 +2,6 @@ package programmers.kakaoBlindRecruit_2018;
 
 import java.util.*;
 
-import static java.util.stream.Collectors.toList;
 
 public class 압축 {
     static int idx = 1;

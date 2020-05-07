@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Q2105 {
+public class 디저트_카페 {
     static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static int[][] board;

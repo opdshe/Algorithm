@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2018/압축.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2018/방금그곡.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/자물쇠와열쇠.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoWinterInternship_2019/튜플.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -11,6 +13,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2018/압축.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2018/압축.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2019/후보키.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/programmers/kakaoBlindRecruit_2019/후보키.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/swea/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/DIR.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/swea/DIR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/swea/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/Q2105$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/Q2105.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/swea/Q2477.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2018/압축.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2018/압축.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2019/후보키.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2019/후보키.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swea/Q2105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swea/디저트_카페.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swea/Q2477.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swea/차량_정비소.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +87,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.압축">
+  <component name="RunManager" selected="Application.튜플">
     <configuration name="압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.압축" />
       <module name="java-workspace.main" />
@@ -87,12 +101,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="프렌즈4블록" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.프렌즈4블록" />
+    <configuration name="후보키" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2019.후보키" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="방금그곡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.방금그곡" />
       <module name="java-workspace.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="튜플" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.튜플" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="자물쇠와열쇠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.자물쇠와열쇠" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,55 +218,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="괄호_변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.괄호_변환" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="n진수_게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.n진수_게임" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="괄호_변환Test.올바른_괄호_확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-workspace.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.kakaoBlindRecruit_2020" />
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.괄호_변환Test" />
-      <option name="METHOD_NAME" value="올바른_괄호_확인" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.튜플" />
+        <item itemvalue="Application.자물쇠와열쇠" />
+        <item itemvalue="Application.방금그곡" />
+        <item itemvalue="Application.후보키" />
         <item itemvalue="Application.압축" />
-        <item itemvalue="Application.프렌즈4블록" />
-        <item itemvalue="Application.n진수_게임" />
-        <item itemvalue="Application.괄호_변환" />
-        <item itemvalue="JUnit.괄호_변환Test.올바른_괄호_확인" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +251,12 @@
       <workItem from="1587960420227" duration="694000" />
       <workItem from="1587993345417" duration="5050000" />
       <workItem from="1587999916840" duration="15000" />
-      <workItem from="1588319430116" duration="41527000" />
+      <workItem from="1588319430116" duration="43567000" />
+      <workItem from="1588497424570" duration="8000" />
+      <workItem from="1588511205991" duration="58000" />
+      <workItem from="1588552927982" duration="601000" />
+      <workItem from="1588574305862" duration="4000" />
+      <workItem from="1588737445526" duration="25667000" />
     </task>
     <servers />
   </component>
@@ -264,46 +280,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587967339502" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588437250932">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1588842558075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588437250932" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588437250931">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588842558075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1588842558075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588437250931" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588437250931">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588842558075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1588842558075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588437250931" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588437250932">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588842558075" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1588842558075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588437250932" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588420901268">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588842558075" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588488634309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588420901268" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588420901267">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588488634309" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588488634309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588420901267" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588420901265">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588488634309" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588488634309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588420901265" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588420901268">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588488634309" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588488634309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588420901268" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588488634309" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1588348727567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588348727567" />
-    <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587999917653">
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588740085627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587999917653" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588740085627" />
     <state x="570" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587795557850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
