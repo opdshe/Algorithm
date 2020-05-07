@@ -8,12 +8,13 @@ public class 튜플 {
     static List <List<Integer>> tuple = new ArrayList<>();
     static List<Integer> answer = new ArrayList<>();
     public static void main(String[] args) {
-        solution("{{123}}");
+        solution("{{2},{2,1},{2,1,3},{2,1,3,4}}");
     }
 
     public static int[] solution(String s) {
         toElementList(s);
         getTuple();
+        System.out.println(Arrays.toString(answer.toArray()));
         return answer.stream().mapToInt(Integer::intValue).toArray();
     }
 
@@ -29,15 +30,15 @@ public class 튜플 {
     }
 
     private static void toElementList(String s) {
-        Arrays.stream(s.split("\\{"))
-                .filter(str->!str.isEmpty())
-                .map(str->str.replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s,]", ""))
-                .forEach(str -> {
-                    List<Integer> element =new ArrayList<>();
-                    Arrays.stream(str.split(","))
-                            .forEach(integer -> element.add(Integer.parseInt(integer)));
-                    tuple.add(element);
-                });
+       Arrays.stream(s.split("\\{"))
+               .filter(str->!str.isEmpty())
+               .map(str->str.replaceAll("[}]", ""))
+               .forEach(str -> {
+                   List<Integer> element = new ArrayList<>();
+                   Arrays.stream(str.split(","))
+                           .forEach(integer -> element.add(Integer.parseInt(integer)));
+                   tuple.add(element);
+               });
     }
 
 }
