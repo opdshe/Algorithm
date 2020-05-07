@@ -42,6 +42,8 @@
 + 2020 KAKAO BLIND RECRUITMENT
   + 괄호 변환
   + 문자열 압축
++ 2019 카카오 겨울 인턴쉽
+  + 튜플
 
 ## SW Expert Academy
 + 모의 SW 역량테스트
