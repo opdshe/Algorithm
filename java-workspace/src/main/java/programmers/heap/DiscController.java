@@ -1,39 +1,50 @@
 package programmers.heap;
 
-
 import java.util.*;
 
 public class DiscController {
+    private static int time = 0;
+
     public static void main(String[] args) {
-        solution(new int[][]{{0,3}, {1, 9}, {2, 6}});
-        int [] myArray = new int[] {14,25, 1, 4,5};
-        int [] newArray = Arrays.copyOfRange(myArray, 0, 3);
-        System.out.println(Arrays.toString(newArray));
+        solution(new int[][]{{0, 3}, {1, 9}, {2, 6}});
     }
 
     public static int solution(int[][] jobs) {
-        int sumOfRunningTime = 0;
-        PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(new myCompartor());
-        priorityQueue.addAll(Arrays.asList(jobs));
-        int start = priorityQueue.peek()[0];
-        while(!priorityQueue.isEmpty()) {
-            int[] node = priorityQueue.poll();
-            int end = start + node[1];
-            int runningTime = end - node[0];
-            sumOfRunningTime += runningTime;
-            start = end;
-        }
-        System.out.println(sumOfRunningTime/jobs.length);
-        return sumOfRunningTime/jobs.length;
-    }
-}
-class myCompartor implements Comparator<int[]> {
+        Arrays.sort(jobs, Comparator.comparing((a) -> a[0]));
+        int currIdx = 0;
+        int count =jobs.length;
+        int sum = 0;
+        int start = jobs[0][0];
+        int end = start + Arrays.stream(jobs)
+                .map(a -> a[1])
+                .reduce(0, Integer::sum);
+        Queue<int[]> queue = new PriorityQueue<int[]>((a, b)->a[1] > b[1]?1:-1);
+        while (time <= end) {
+            try {
+                for(int i = currIdx; i < count; i++ ){
+                    if(jobs[i][0] <= time) {
+                        queue.add(jobs[i]);
+                        currIdx++;
+                    }
+                }
 
-    @Override
-    public int compare(int[] o1, int[] o2) {
-        if (o1[0] < o2[0]) {
-            return -1;
+            } catch (ArrayIndexOutOfBoundsException e) {
+                break;
+            }
+
+            if (!queue.isEmpty()) {
+                int[] node = queue.poll();
+                System.out.println(Arrays.toString(node));
+                System.out.println("current time = " + time);
+                time += node[1];
+                sum += (time - node[0]);
+                continue;
+            }
+            time++;
         }
-        return 1;
+
+        int answer = sum / count;
+        System.out.println(answer);
+        return answer;
     }
 }
