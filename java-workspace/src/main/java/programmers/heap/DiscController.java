@@ -31,7 +31,6 @@ public class DiscController {
             } catch (ArrayIndexOutOfBoundsException e) {
                 break;
             }
-
             if (!queue.isEmpty()) {
                 int[] node = queue.poll();
                 System.out.println(Arrays.toString(node));
