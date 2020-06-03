@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/가사검색.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/기둥과보설치.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/블록이동하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +114,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.가사검색">
+  <component name="RunManager" selected="Application.블록이동하기">
     <configuration name="방문길이" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.summer_winter_coding_2018.방문길이" />
       <module name="java-workspace.main" />
@@ -133,12 +141,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.heap.DiscController" />
+    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.기둥과보설치" />
       <module name="java-workspace.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.heap.*" />
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="블록이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.블록이동하기" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,32 +427,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java-workspace [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.블록이동하기" />
+        <item itemvalue="Application.기둥과보설치" />
         <item itemvalue="Application.가사검색" />
         <item itemvalue="Application.방문길이" />
         <item itemvalue="Application.HIndex" />
-        <item itemvalue="Gradle.java-workspace [clean]" />
-        <item itemvalue="Application.DiscController" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +478,7 @@
       <workItem from="1590804885867" duration="599000" />
       <workItem from="1590926172382" duration="16987000" />
       <workItem from="1591074863322" duration="15000" />
-      <workItem from="1591088633834" duration="3487000" />
+      <workItem from="1591088633834" duration="22774000" />
     </task>
     <task id="LOCAL-00001" summary="Add : Programmers - Greedy - 조이스틱">
       <created>1590412683190</created>
@@ -520,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590990575429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add : Programmers - kakaoBlindRecruit_2020 - 가사검색">
+      <created>1591092705592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591092705592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,77 +542,78 @@
     <MESSAGE value="Add : Programmers - sorting - H-Index" />
     <MESSAGE value="Add : Programmers - summer_winter_coding_2018 - 스킬트리" />
     <MESSAGE value="Add : Programmers - summer_winter_coding_2018 - 방문길이" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add : Programmers - summer_winter_coding_2018 - 방문길이" />
+    <MESSAGE value="Add : Programmers - kakaoBlindRecruit_2020 - 가사검색" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : Programmers - kakaoBlindRecruit_2020 - 가사검색" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Auto_Import" timestamp="1589384393857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1589384393857" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1590990252899">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1591160366246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590990252899" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591160366246" />
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1587105347347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587105347347" />
-    <state x="285" y="7" key="CommitChangelistDialog2" timestamp="1590990574088">
+    <state x="285" y="7" key="CommitChangelistDialog2" timestamp="1591092704109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="285" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590990574088" />
+    <state x="285" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591092704109" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591074876079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591074876079" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591092510837">
+    <state width="1493" height="234" key="GridCell.Tab.0.bottom" timestamp="1591163479860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591092510837" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591092510836">
+    <state width="1493" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591163479860" />
+    <state width="1493" height="234" key="GridCell.Tab.0.center" timestamp="1591163479860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591092510836" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591092510836">
+    <state width="1493" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591163479860" />
+    <state width="1493" height="234" key="GridCell.Tab.0.left" timestamp="1591163479860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591092510836" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591092510837">
+    <state width="1493" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591163479860" />
+    <state width="1493" height="234" key="GridCell.Tab.0.right" timestamp="1591163479860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591092510837" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591027230578">
+    <state width="1493" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591163479860" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591112913324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591027230578" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591027230578">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591112913324" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591112913324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591027230578" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591027230578">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591112913324" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591112913324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591027230578" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591027230578">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591112913324" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591112913324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591027230578" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591112913324" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1590978094146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590978094146" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590990579009">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591092708426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590990579009" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591092708426" />
     <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591074862583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591074862583" />
-    <state x="570" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587795557850">
+    <state x="570" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591157559302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="570" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587795557850" />
+    <state x="570" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591157559302" />
     <state x="519" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588348562986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -620,10 +630,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="39" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1588939734812" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590762024565">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591114843352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590762024565" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591114843352" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,6 +642,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/programmers/hash/Camouflage.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/kakaoBlindRecruit_2020/기둥과보설치.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
