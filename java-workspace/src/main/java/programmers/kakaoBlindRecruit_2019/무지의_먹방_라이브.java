@@ -1,6 +1,7 @@
 package programmers.kakaoBlindRecruit_2019;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class 무지의_먹방_라이브 {
@@ -9,43 +10,36 @@ public class 무지의_먹방_라이브 {
     }
 
     public static int solution(int[] food_times, long k) {
-        int arraySize = food_times.length;
-        List<Pair> foods = new ArrayList<>();
-        for (int i =0 ; i < arraySize ; i++) {
-            foods.add(new Pair(i+1, food_times[i]));
+        List<Food> foods = new ArrayList<>();
+        int countOfFood = food_times.length;
+        for(int i = 0 ; i < countOfFood; i ++) {
+            foods.add(new Food(i, food_times[i]));
         }
-
-        foods.sort((a, b) -> a.rest < b.rest? 1: -1);
-        foods.forEach(i-> System.out.println(i.rest));
-        long preRest = 0;
-        int i=0;
-        for(Pair p : foods) {
-            long gap = p.rest - preRest;
-            if (gap != 0 ) {
-                long spend = gap * arraySize;
-                if (spend <= k) {
-                    k -= spend;
-                    preRest = p.rest;
-                } else {
-                    k %= arraySize;
-                    foods.subList(i, food_times.length).sort((a,b) -> a.idx<b.idx?1 : -1 );
-                    return foods.get(i+(int)k).idx;
-                }
+        foods.sort(Comparator.comparing((a)->a.rest));
+        while (true) {
+            if(foods.get(0).rest * foods.size() <= k){
+                k -= foods.get(0).rest * foods.size();
+                foods.remove(0);
+                continue;
             }
-            i++;
-            arraySize--;
+            break;
         }
-
-        return -1;
+        foods.sort(Comparator.comparing((a)->a.idx));
+        for(Food f : foods) {
+            System.out.println(f.idx + ", " + f.rest);
+        }
+        int next = (int) (foods.size()%k);
+        int answer = foods.get(next).idx +1 ;
+        System.out.println(answer);
+        return  answer;
     }
-}
+    private static class Food {
+        int idx;
+        int rest;
 
-class Pair {
-    int idx;
-    int rest;
-
-    public Pair(int idx, int rest) {
-        this.idx = idx;
-        this.rest = rest;
+        public Food(int idx, int rest) {
+            this.idx = idx;
+            this.rest = rest;
+        }
     }
 }
