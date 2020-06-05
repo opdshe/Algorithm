@@ -1,4 +1,4 @@
-package programmers.stack;
+package programmers.stack_queue;
 
 import java.util.Arrays;
 
