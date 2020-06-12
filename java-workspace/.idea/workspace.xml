@@ -1,37 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/dfds_bfs/여행경로.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/kakao2020/Exercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="Add : Programmers - maester - 포켓몬, 게임 맵 최단거리">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/bruteforce/카펫.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/java-workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-workspace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/programmers/stack/주식가격.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/etc/기지국설치.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/etc/기지국설치.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/etc/타일링.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/etc/타일링.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/simulation/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/stack_queue/주식가격.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/stack_queue/주식가격.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/2019 KAKAO BLIND RECRUITMENT-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/2020 KAKAO BLIND RECRUITMENT-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmer_Heap-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_DFS&amp;BFS-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Greedy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Hash-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Sorting-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Stack &amp; Queue-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_완전탐색-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/2019 KAKAO BLIND RECRUITMENT.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/2020 KAKAO BLIND RECRUITMENT.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmer_Heap.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_DFS&amp;BFS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Greedy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Hash.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Sorting.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Stack &amp; Queue.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_완전탐색.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/등산로조성-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/미생물 격리-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/벌꿀  채취-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/수영장-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/숫자 만들기-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/점심 식사시간-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/탈주범 검거-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/등산로조성.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/미생물 격리.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/벌꿀  채취.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/수영장.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/숫자 만들기.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/점심 식사시간.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/탈주범 검거.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -46,28 +85,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workspace" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workspace" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workspace" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workspace" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -94,6 +112,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -115,13 +134,90 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.여행경로">
-    <configuration name="게임맵최단거리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.maester.게임맵최단거리" />
+  <component name="RunManager" selected="Application.카펫">
+    <configuration name="카카오프렌즈컬러북" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakao2017.카카오프렌즈컬러북" />
+      <module name="java-workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakao2017.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="카펫" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.programmers.bruteforce.카펫" />
+      <module name="java-workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.programmers.bruteforce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakao2020.Exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakao2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.기둥과보설치" />
       <module name="java-workspace.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.maester.*" />
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="블록이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.블록이동하기" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="다트게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.다트게임" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="호텔방배정" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.호텔방배정" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +231,149 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.dfds_bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스킬트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.summer_winter_coding_2018.스킬트리" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.summer_winter_coding_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="주식가격" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.stack.주식가격" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="일번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.일번" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="가장먼노드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.graph.가장먼노드" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단속카메라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.단속카메라" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="다리를지나는트럭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.stack_queue.다리를지나는트럭" />
+      <module name="java-workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.stack_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="사번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.사번" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="조이스틱" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.조이스틱" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="방금그곡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.방금그곡" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="튜플" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.튜플" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="기지국설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.etc.기지국설치" />
+      <module name="java-workspace.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +400,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.maester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakao2020.Exercise" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakao2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,6 +439,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="주식가격" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.stack_queue.주식가격" />
+      <module name="java-workspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.stack_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,181 +563,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="기둥과보설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.기둥과보설치" />
-      <module name="java-workspace.main" />
+    <configuration name="괄호_변환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.괄호_변환" />
+      <module name="java-workspace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="블록이동하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2020.블록이동하기" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="다트게임" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.다트게임" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="호텔방배정" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.호텔방배정" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="스킬트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.summer_winter_coding_2018.스킬트리" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.summer_winter_coding_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="주식가격" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.stack.주식가격" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="일번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.일번" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="가장먼노드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.graph.가장먼노드" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="단속카메라" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.greedy.단속카메라" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="사번" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.사번" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="조이스틱" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.greedy.조이스틱" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="방금그곡" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoBlindRecruit_2018.방금그곡" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoBlindRecruit_2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="튜플" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.kakaoWinterInternship_2019.튜플" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.kakaoWinterInternship_2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="기지국설치" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.etc.기지국설치" />
-      <module name="java-workspace.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.etc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -508,11 +578,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.여행경로" />
+        <item itemvalue="Application.카펫" />
+        <item itemvalue="Application.괄호_변환" />
+        <item itemvalue="Application.카카오프렌즈컬러북" />
         <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.게임맵최단거리" />
-        <item itemvalue="Application.포켓몬" />
-        <item itemvalue="Application.다리를지나는트럭" />
       </list>
     </recent_temporary>
   </component>
@@ -560,6 +629,8 @@
       <workItem from="1591088633834" duration="23317000" />
       <workItem from="1591195979000" duration="32601000" />
       <workItem from="1591315823378" duration="27817000" />
+      <workItem from="1591825981226" duration="626000" />
+      <workItem from="1591928771645" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="Add : Programmers - Greedy - 조이스틱">
       <created>1590412683190</created>
@@ -656,7 +727,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add : Programmers - Greedy - 조이스틱" />
@@ -679,6 +762,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1589384393857" />
+    <state x="370" y="41" key="#Exercise" timestamp="1591826344330">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="370" y="41" key="#Exercise/0.23.1440.797@0.23.1440.797" timestamp="1591826344330" />
+    <state x="208" y="23" key="#Project_Structure" timestamp="1591826380063">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="208" y="23" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1591826380063" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1591409508164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -695,22 +786,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591164469283" />
-    <state width="897" height="234" key="GridCell.Tab.0.bottom" timestamp="1591412126467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591930836618">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591930836618" />
     <state width="897" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
-    <state width="897" height="234" key="GridCell.Tab.0.center" timestamp="1591412126467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1591826623004" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591930836617">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591930836617" />
     <state width="897" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
-    <state width="897" height="234" key="GridCell.Tab.0.left" timestamp="1591412126467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1591826623003" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591930836616">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591930836616" />
     <state width="897" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
-    <state width="897" height="234" key="GridCell.Tab.0.right" timestamp="1591412126467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1591826623003" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591930836617">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591930836617" />
     <state width="897" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1591826623004" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591284307337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -727,10 +826,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591284307337" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1590978094146">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="233" y="23" key="SettingsEditor" timestamp="1591826007700">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590978094146" />
+    <state x="233" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1591826007700" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591345373481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -751,6 +851,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1589007718793" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1591930406598">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1591930406598" />
     <state x="180" y="13" key="new project wizard" timestamp="1591164593952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
