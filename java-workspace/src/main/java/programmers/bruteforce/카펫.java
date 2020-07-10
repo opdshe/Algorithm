@@ -23,4 +23,3 @@ public class 카펫 {
         return answer;
     }
 }
-

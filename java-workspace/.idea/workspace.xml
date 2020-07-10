@@ -19,53 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="Add : Programmers - maester - 포켓몬, 게임 맵 최단거리">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/bruteforce/카펫.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-workspace.iml" afterDir="false" />
+    <list default="true" id="b5fb8376-a5f9-4dab-9b1f-ba351a0846e9" name="Default Changelist" comment="Add : Programmers - bruteforce - 카펫">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/etc/기지국설치.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/etc/기지국설치.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/etc/타일링.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/etc/타일링.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/simulation/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/stack_queue/주식가격.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/stack_queue/주식가격.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/2019 KAKAO BLIND RECRUITMENT-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/2020 KAKAO BLIND RECRUITMENT-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmer_Heap-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_DFS&amp;BFS-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Greedy-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Hash-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Sorting-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_Stack &amp; Queue-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/.ipynb_checkpoints/Programmers_완전탐색-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/2019 KAKAO BLIND RECRUITMENT.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/2020 KAKAO BLIND RECRUITMENT.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmer_Heap.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_DFS&amp;BFS.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Greedy.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Hash.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Sorting.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_Stack &amp; Queue.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/Programmers/Programmers_완전탐색.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/등산로조성-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/미생물 격리-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/벌꿀  채취-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/수영장-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/숫자 만들기-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/점심 식사시간-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/.ipynb_checkpoints/탈주범 검거-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/등산로조성.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/미생물 격리.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/벌꿀  채취.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/수영장.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/숫자 만들기.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/점심 식사시간.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-workspace/SWExpert/탈주범 검거.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/bruteforce/카펫.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/bruteforce/카펫.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -630,7 +586,7 @@
       <workItem from="1591195979000" duration="32601000" />
       <workItem from="1591315823378" duration="27817000" />
       <workItem from="1591825981226" duration="626000" />
-      <workItem from="1591928771645" duration="1526000" />
+      <workItem from="1591928771645" duration="2464000" />
     </task>
     <task id="LOCAL-00001" summary="Add : Programmers - Greedy - 조이스틱">
       <created>1590412683190</created>
@@ -723,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591345367119</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add : Programmers - bruteforce - 카펫">
+      <created>1591936237715</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591936237715</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +718,8 @@
     <MESSAGE value="Add : Programmers - etc - 최솟값 만들기" />
     <MESSAGE value="Add : Programmers - stack_queue - 다리 위를 지나가는 트럭" />
     <MESSAGE value="Add : Programmers - maester - 포켓몬, 게임 맵 최단거리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add : Programmers - maester - 포켓몬, 게임 맵 최단거리" />
+    <MESSAGE value="Add : Programmers - bruteforce - 카펫" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : Programmers - bruteforce - 카펫" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Auto_Import" timestamp="1589384393857">
@@ -786,28 +750,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591164469283" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591930836618">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1591938137212">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591930836618" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591938137212" />
     <state width="897" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1591826623004" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591930836617">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1591938137211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591930836617" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591938137211" />
     <state width="897" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1591826623003" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591930836616">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1591938137211">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591930836616" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591938137211" />
     <state width="897" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1591826623003" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591930836617">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1591938137212">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591930836617" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591938137212" />
     <state width="897" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591412126467" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1591826623004" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591284307337">
@@ -831,9 +795,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590978094146" />
     <state x="233" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1591826007700" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591345373481">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="338" y="158" key="Vcs.Push.Dialog.v2" timestamp="1591936311841">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="338" y="158" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591936311841" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591345373481" />
     <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591315847822">
       <screen x="0" y="0" width="1536" height="824" />
