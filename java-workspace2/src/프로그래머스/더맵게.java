@@ -1,6 +1,5 @@
 package 프로그래머스;
 
-import java.awt.print.Pageable;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
