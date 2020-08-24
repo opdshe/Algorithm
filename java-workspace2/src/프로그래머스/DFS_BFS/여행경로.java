@@ -1,7 +1,6 @@
 package 프로그래머스.DFS_BFS;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -29,7 +28,6 @@ public class 여행경로 {
         String[] ticket = answer.stream()
                 .findFirst()
                 .get();
-        System.out.println(Arrays.toString(ticket));
         return ticket;
     }
 
@@ -57,7 +55,7 @@ public class 여행경로 {
         @Override
         public int compare(String[] o1, String[] o2) {
             for (int i = 0; i < o1.length; i++) {
-                if (o1[i].compareTo(o2[i]) > 1) {
+                if (o1[i].compareTo(o2[i]) > 0) {
                     return 1;
                 } else if (o1[i].compareTo(o2[i]) == 0) {
                     continue;
