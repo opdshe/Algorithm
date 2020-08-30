@@ -9,18 +9,23 @@ public class 타일링 {
 
 	public static void main(String[] args) {
 		n = scanner.nextInt();
-		dfs(0);
 		System.out.println(answer);
+		int maxTwo = n / 2;
+		System.out.println(factorial(5));
+		System.out.println(factorial(5));
+		for (int i = 0; i <= maxTwo; i++) {
+			int countOfOne = n - i;
+			int total = (i + countOfOne - 1) / (countOfOne);
+		}
 	}
 
-	private static void dfs(int sum) {
-		if (sum == n) {
-			answer++;
+	private static int factorial(int target) {
+		if (target == 0) {
+			return 1;
 		}
-		if (sum > n) {
-			return;
+		if (target == 1) {
+			return 1;
 		}
-		dfs(sum + 1);
-		dfs(sum + 2);
+		return target * factorial(target - 1);
 	}
 }
