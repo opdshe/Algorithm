@@ -6,7 +6,6 @@ public class 연산자끼워넣기 {
 	static int max = -1000000000;
 	static int min = 1000000000;
 	static int[] numbers;
-	//+, -, x, /
 	static int[] operators;
 	static int N;
 
