@@ -16,7 +16,6 @@ public class 트리의부모찾기 {
 		scanner.nextLine();
 		parents = new int[N + 1];
 		parents[1] = 1;
-		int count = 0;
 		for (int i = 0; i < N - 1; i++) {
 			int[] inputs = Arrays.stream(scanner.nextLine().split(" "))
 					.mapToInt(Integer::parseInt)
