@@ -1,5 +1,6 @@
 package 백준.이분탐색;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class 부분합 {
@@ -15,29 +16,11 @@ public class 부분합 {
 		for (int i = 0; i < N; i++) {
 			numbers[i] = scanner.nextInt();
 		}
+		Arrays.sort(numbers);
 		search();
-
 	}
 
 	private static void search() {
-		int leftIdx = 0;
-		int rightIdx = 0;
-		long sum = 0;
-		int diff = N;
 
-		while (true) {
-			if (sum >= M) {
-				sum -= numbers[leftIdx++];
-				diff = Math.min(diff, (rightIdx - leftIdx + 1));
-			} else if (rightIdx == N) {
-				break;
-			} else {
-				sum += numbers[rightIdx++];
-			}
-
-		}
-		System.out.println(diff);
 	}
-
-
 }
