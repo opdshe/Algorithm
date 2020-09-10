@@ -38,7 +38,7 @@ public class 경주로건설 {
 	private static void bfs(int[][] input) {
 		Queue<Car> queue = new PriorityQueue<>(Comparator.comparing((Car c) -> c.price));
 		queue.add(new Car(0, 0, -1, 0));
-		visited[0][0] = 100;
+		visited[0][0] = 1;
 		while (!queue.isEmpty()) {
 			Car current = queue.poll();
 			if (current.y == size - 1 && current.x == size - 1) {
