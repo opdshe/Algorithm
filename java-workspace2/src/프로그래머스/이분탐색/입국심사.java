@@ -19,11 +19,11 @@ public class 입국심사 {
             }
             if (count >= n) {
                 right = mid - 1;
+                answer = mid;
             } else {
                 left = mid + 1;
             }
         }
-        System.out.println(left);
         return answer;
     }
 }
