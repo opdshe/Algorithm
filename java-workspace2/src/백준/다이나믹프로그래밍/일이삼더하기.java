@@ -3,34 +3,29 @@ package 백준.다이나믹프로그래밍;
 import java.util.Scanner;
 
 public class 일이삼더하기 {
-	static int[] array;
-	static int countOfCase;
-	static int answer = 0;
+	static Scanner scanner = new Scanner(System.in);
+	static int testcase;
+	static int answer;
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		countOfCase = scanner.nextInt();
-		for (int i = 0; i < countOfCase; i++) {
-			int target = scanner.nextInt();
-			dynamicProgramming(target);
+		testcase = scanner.nextInt();
+		for (int i = 0; i < testcase; i++) {
+			answer = 0;
+			search(0, scanner.nextInt());
+			System.out.println(answer);
 		}
 	}
 
-	private static void dynamicProgramming(int target) {
-		dfs(0, target);
-		System.out.println(answer);
-		answer = 0;
-	}
-
-	private static void dfs(int sum, int target) {
+	private static void search(int sum, int target) {
 		if (sum == target) {
 			answer++;
+			return;
 		}
 		if (sum > target) {
 			return;
 		}
 		for (int i = 1; i <= 3; i++) {
-			dfs(sum + i, target);
+			search(sum + i, target);
 		}
 	}
 }
