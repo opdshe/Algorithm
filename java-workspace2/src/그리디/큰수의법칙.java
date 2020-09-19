@@ -1,4 +1,4 @@
-package 백준.그리디;
+package 그리디;
 
 import java.util.Arrays;
 import java.util.Scanner;
