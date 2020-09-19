@@ -1,26 +1,27 @@
 package 라이브러리;
 
-public class 순열만들기 {
+
+public class 중복조합만들기 {
 	static boolean[] visited;
 	static int[] array;
 	static int count = 0;
 
 
-	// n 개 고르기, n = 5
+	// n 개 고르기
 	public static void main(String[] args) {
 		int[] numbers = new int[]{1, 2, 3, 4, 5, 6};
-		permutation(numbers, 2);
+		duplicatedCombine(numbers, 3);
 	}
 
 	//3개
-	private static void permutation(int[] numbers, int n) {
+	private static void duplicatedCombine(int[] numbers, int n) {
 		visited = new boolean[numbers.length];
 		array = new int[n];
-		dfs(numbers, n, 0);
+		dfs(numbers, n, 0, 0);
 		System.out.println(count);
 	}
 
-	private static void dfs(int[] numbers, int n, int level) {
+	private static void dfs(int[] numbers, int n, int start, int level) {
 		if (level == n) {
 			count++;
 			for (int value : array) {
@@ -30,13 +31,9 @@ public class 순열만들기 {
 			return;
 		}
 
-		for (int i = 0; i < numbers.length; i++) {
-			if (!visited[i]) {
-				visited[i] = true;
-				array[level] = i;
-				dfs(numbers, n, level + 1);
-				visited[i] = false;
-			}
+		for (int i = start; i < numbers.length; i++) {
+			array[level] = i;
+			dfs(numbers, n, i, level + 1);
 		}
 	}
 }

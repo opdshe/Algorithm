@@ -1,6 +1,6 @@
 package 라이브러리;
 
-public class 순열만들기 {
+public class 중복순열만들기 {
 	static boolean[] visited;
 	static int[] array;
 	static int count = 0;
@@ -8,12 +8,11 @@ public class 순열만들기 {
 
 	// n 개 고르기, n = 5
 	public static void main(String[] args) {
-		int[] numbers = new int[]{1, 2, 3, 4, 5, 6};
-		permutation(numbers, 2);
+		int[] numbers = new int[]{1, 2, 3};
+		duplicatedPermutation(numbers, 3);
 	}
 
-	//3개
-	private static void permutation(int[] numbers, int n) {
+	private static void duplicatedPermutation(int[] numbers, int n) {
 		visited = new boolean[numbers.length];
 		array = new int[n];
 		dfs(numbers, n, 0);
@@ -31,12 +30,8 @@ public class 순열만들기 {
 		}
 
 		for (int i = 0; i < numbers.length; i++) {
-			if (!visited[i]) {
-				visited[i] = true;
-				array[level] = i;
-				dfs(numbers, n, level + 1);
-				visited[i] = false;
-			}
+			array[level] = i;
+			dfs(numbers, n, level + 1);
 		}
 	}
 }

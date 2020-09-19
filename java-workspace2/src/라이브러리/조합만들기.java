@@ -3,24 +3,24 @@ package 라이브러리;
 public class 조합만들기 {
 	static boolean[] visited;
 	static int[] array;
-	static int[] numbers = new int[]{11, 33, 45, 21, 54, 100, 39, 40};
 	static int count = 0;
 
 
-	// n 개 고르기, n = 5
+	// n 개 고르기
 	public static void main(String[] args) {
-		combine(5);
+		int[] numbers = new int[]{1, 2, 3, 4, 5, 6};
+		combine(numbers, 3);
 	}
 
 	//3개
-	private static void combine(int n) {
+	private static void combine(int[] numbers, int n) {
 		visited = new boolean[numbers.length];
 		array = new int[n];
-		dfs(0, 0);
+		dfs(numbers, 0, 0);
 		System.out.println(count);
 	}
 
-	private static void dfs(int start, int level) {
+	private static void dfs(int[] numbers, int start, int level) {
 		if (level == array.length) {
 			count++;
 			for (int value : array) {
@@ -34,7 +34,7 @@ public class 조합만들기 {
 			if (!visited[i]) {
 				visited[i] = true;
 				array[level] = i;
-				dfs(i + 1, level + 1);
+				dfs(numbers, i + 1, level + 1);
 				visited[i] = false;
 			}
 		}
