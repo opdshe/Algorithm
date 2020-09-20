@@ -1,4 +1,4 @@
-package 백준.최단경로.벨만포드;
+package 최단경로.벨만포드;
 
 import java.util.ArrayList;
 import java.util.Arrays;

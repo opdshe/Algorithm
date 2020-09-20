@@ -1,4 +1,4 @@
-package 백준.최단경로;
+package 최단경로.다익스트라;
 
 import java.util.*;
 

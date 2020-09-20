@@ -1,4 +1,4 @@
-package 백준.최단경로;
+package 최단경로.플로이드와샬;
 
 import java.util.Arrays;
 import java.util.Scanner;
