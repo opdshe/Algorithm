@@ -1,21 +1,7 @@
-def print_str_statistics(*text):
-    count = 0
-    for i in text:
-        count += len(i)
-    print("total length:", count)
-    print("average length:", count / len(text))
-
-    total = 0
-    for i in text:
-        total += int(i)
-    print("average value:", total / len(text))
-
-
-number_list = []
-while True:
-    s = input('Please give a number : ')
-    if int(s) == 0:
-        break
-    else:
-        number_list.append(s)
-print_str_statistics(*number_list)
+text = "오늘도 밥을 먹었다. 생각보다 맛이 없었다. 나는 배가 고프다"
+longest_word = ''
+for sentence in text.split("."):
+    for word in sentence.strip().split(" "):
+        if len(word) > len(longest_word):
+            longest_word = word
+print(longest_word)
