@@ -7,6 +7,7 @@ public class 서로소집합 {
 	static int[] parents;
 
 	public static void main(String[] args) {
+		//N = 노드 수 ,  countOfOrder = union 명령 수
 		int N = scanner.nextInt();
 		int countOfOrder = scanner.nextInt();
 		parents = new int[N + 1];
