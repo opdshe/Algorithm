@@ -1,4 +1,4 @@
-package 최단경로.크루스칼;
+package 그래프.최단경로.크루스칼;
 
 import java.util.ArrayList;
 import java.util.Comparator;

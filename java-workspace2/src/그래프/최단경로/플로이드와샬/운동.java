@@ -1,4 +1,4 @@
-package 최단경로.플로이드와샬;
+package 그래프.최단경로.플로이드와샬;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package 서로소집합;
+package 그래프.서로소집합;
 
 import java.util.Scanner;
 

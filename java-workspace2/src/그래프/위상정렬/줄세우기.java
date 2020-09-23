@@ -1,4 +1,4 @@
-package 위상정렬;
+package 그래프.위상정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
