@@ -9,8 +9,8 @@ public class 연산자끼워넣기 {
 	static int[] array;
 	static Scanner scanner = new Scanner(System.in);
 	static String[] operators = new String[]{"+", "-", "*", "/"};
-	static int max = -1000000000;
-	static int min = 100000000;
+	static int max = -2000000000;
+	static int min = 2000000000;
 
 	public static void main(String[] args) {
 		int N = scanner.nextInt();
