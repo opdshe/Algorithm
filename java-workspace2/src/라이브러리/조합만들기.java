@@ -3,7 +3,6 @@ package 라이브러리;
 public class 조합만들기 {
 	static boolean[] visited;
 	static int[] array;
-	static int count = 0;
 
 
 	// n 개 고르기
@@ -17,12 +16,10 @@ public class 조합만들기 {
 		visited = new boolean[numbers.length];
 		array = new int[n];
 		dfs(numbers, 0, 0);
-		System.out.println(count);
 	}
 
 	private static void dfs(int[] numbers, int start, int level) {
 		if (level == array.length) {
-			count++;
 			for (int value : array) {
 				System.out.print(numbers[value] + " ");
 			}
