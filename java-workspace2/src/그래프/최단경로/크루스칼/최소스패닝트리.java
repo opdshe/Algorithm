@@ -1,28 +1,41 @@
 package 그래프.최단경로.크루스칼;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.Scanner;
 
 public class 최소스패닝트리 {
+	static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) throws IOException {
 		Queue<Edge> edges = new PriorityQueue<>(Comparator.comparing(edge -> edge.cost));
-		int countOfVertex = scanner.nextInt();
+		int[] input = Arrays.stream(bufferedReader.readLine().split(" "))
+				.mapToInt(Integer::parseInt)
+				.toArray();
+		int countOfVertex = input[0];
 		int[] parents = new int[countOfVertex + 1];
 		for (int idx = 1; idx <= countOfVertex; idx++) {
 			parents[idx] = idx;
 		}
-		int countOfEdge = scanner.nextInt();
+		int countOfEdge = input[1];
 		for (int count = 0; count < countOfEdge; count++) {
-			int source = scanner.nextInt();
-			int dest = scanner.nextInt();
-			int cost = scanner.nextInt();
+			int[] edgeInfo = Arrays.stream(bufferedReader.readLine().split(" "))
+					.mapToInt(Integer::parseInt)
+					.toArray();
+			int source = edgeInfo[0];
+			int dest = edgeInfo[1];
+			int cost = edgeInfo[2];
 			edges.add(new Edge(source, dest, cost));
 		}
 
+		kruskal(edges, parents);
+	}
+
+	private static void kruskal(Queue<Edge> edges, int[] parents) {
 		long cost = 0;
 		while (!edges.isEmpty()) {
 			Edge edge = edges.poll();
