@@ -3,16 +3,16 @@ package 그래프.최단경로.크루스칼;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.List;
 
 public class 최소스패닝트리 {
 	static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+	static List<Edge> edges = new ArrayList<>();
 
 	public static void main(String[] args) throws IOException {
-		Queue<Edge> edges = new PriorityQueue<>(Comparator.comparing(edge -> edge.cost));
 		int[] input = Arrays.stream(bufferedReader.readLine().split(" "))
 				.mapToInt(Integer::parseInt)
 				.toArray();
@@ -31,14 +31,13 @@ public class 최소스패닝트리 {
 			int cost = edgeInfo[2];
 			edges.add(new Edge(source, dest, cost));
 		}
-
+		edges.sort(Comparator.comparing(edge -> edge.cost));
 		kruskal(edges, parents);
 	}
 
-	private static void kruskal(Queue<Edge> edges, int[] parents) {
+	private static void kruskal(List<Edge> edges, int[] parents) {
 		long cost = 0;
-		while (!edges.isEmpty()) {
-			Edge edge = edges.poll();
+		for (Edge edge : edges) {
 			if (find(parents, edge.source) != find(parents, edge.dest)) {
 				union(parents, edge.source, edge.dest);
 				cost += edge.cost;
