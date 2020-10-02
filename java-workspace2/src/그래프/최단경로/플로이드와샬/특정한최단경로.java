@@ -8,7 +8,6 @@ public class 특정한최단경로 {
 	public static void main(String[] args) {
 		int vertex = scanner.nextInt();
 		int edge = scanner.nextInt();
-		int INF = 2000;
 		int[][] adj = new int[vertex + 1][vertex + 1];
 		for (int i = 1; i <= vertex; i++) {
 			for (int j = 1; j <= vertex; j++) {
