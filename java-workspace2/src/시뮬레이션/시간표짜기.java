@@ -1,4 +1,4 @@
-package 분류안함;
+package 시뮬레이션;
 
 import java.util.ArrayList;
 import java.util.List;
