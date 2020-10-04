@@ -1,4 +1,4 @@
-package 분류안함;
+package 그래프.서로소집합;
 
 import java.io.BufferedReader;
 import java.io.IOException;
