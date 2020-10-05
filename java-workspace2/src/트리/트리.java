@@ -1,7 +1,6 @@
 package 트리;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,16 +10,19 @@ public class 트리 {
 
 	public static void main(String[] args) {
 		int countOfNode = scanner.nextInt();
+		int rootIdx = -1;
 		for (int idx = 0; idx < countOfNode; idx++) {
 			int parent = scanner.nextInt();
 			Node node = new Node(idx, parent);
 			nodes.add(node);
+			if (parent == -1) {
+				rootIdx = idx;
+			}
 		}
 		int target = scanner.nextInt();
-		nodes.sort(Comparator.comparing(node -> node.parent));
 
 		Tree tree = new Tree();
-		tree.connectChild(nodes.get(0));
+		tree.connectChild(nodes.get(rootIdx));
 		tree.delete(tree.root, target);
 		System.out.println(tree.getLeafNode(tree.root));
 
@@ -77,8 +79,6 @@ public class 트리 {
 		private int parent;
 
 		private boolean isDeleted;
-
-		private int order;
 
 		private List<Node> child = new ArrayList<>();
 
