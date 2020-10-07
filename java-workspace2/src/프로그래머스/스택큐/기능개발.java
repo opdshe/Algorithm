@@ -1,48 +1,59 @@
 package 프로그래머스.스택큐;
 
+
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
 
 public class 기능개발 {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
+		solution(new int[]{95, 90, 99, 99, 80, 99}, new int[]{1, 1, 1, 1, 1, 1});
+	}
 
-    }
+	public static int[] solution(int[] progresses, int[] speeds) {
+		Queue<Job> jobQueue = new ArrayDeque<>();
+		for (int idx = 0; idx < progresses.length; idx++) {
+			jobQueue.add(new Job(progresses[idx], speeds[idx]));
+		}
+		return operate(jobQueue);
+	}
 
-    public int[] solution(int[] progresses, int[] speeds) {
-        List<Integer> ansList = new ArrayList<>();
-        List<Integer> proList = new ArrayList<>();
-        List<Integer> spList = new ArrayList<>();
-        for (int i = 0; i < progresses.length; i++) {
-            proList.add(progresses[i]);
-            spList.add(speeds[i]);
-        }
+	private static int[] operate(Queue<Job> jobQueue) {
+		List<Integer> answer = new ArrayList<>();
+		while (!jobQueue.isEmpty()) {
+			for (Job job : jobQueue) {
+				job.work();
+			}
+			if (jobQueue.peek().progress >= 100) {
+				int count = 0;
+				while (jobQueue.size() > 0) {
+					if (jobQueue.peek().progress >= 100) {
+						jobQueue.poll();
+						count++;
+					} else {
+						break;
+					}
+				}
+				answer.add(count);
+			}
+		}
+		return answer.stream()
+				.mapToInt(Integer::intValue)
+				.toArray();
+	}
 
-        int days = 0;
-        while (!proList.isEmpty()) {
-            int subNum = 0;
-            for (int i = 0; i < proList.size(); i++) {
-                proList.set(i, proList.get(i) + spList.get(i));
-            }
-            if (proList.get(0) >= 100) {
-                for (int i = 0; i < proList.size(); i++) {
-                    if (proList.get(i) >= 100) {
-                        subNum += 1;
-                    } else {
-                        break;
-                    }
-                }
-                for (int i = 0; i < subNum; i++) {
-                    proList.remove(0);
-                    spList.remove(0);
-                }
-                ansList.add(subNum);
-            }
+	private static class Job {
+		private int progress;
+		private int rate;
 
-        }
-        int[] answer = new int[ansList.size()];
-        for (int i = 0; i < ansList.size(); i++) {
-            answer[i] = ansList.get(i);
-        }
-        return answer;
-    }
+		public Job(int progress, int rate) {
+			this.progress = progress;
+			this.rate = rate;
+		}
+
+		private void work() {
+			progress += rate;
+		}
+	}
 }
