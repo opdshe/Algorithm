@@ -11,9 +11,10 @@ public class 전자레인지 {
 		int target = scanner.nextInt();
 		for (int idx = 0; idx < 3; idx++) {
 			int time = button[idx];
-			while (target >= time) {
-				target -= time;
-				answer[idx]++;
+			if (target >= time) {
+				int share = target / time;
+				answer[idx] += share;
+				target = target % time;
 			}
 		}
 		if (target == 0) {
