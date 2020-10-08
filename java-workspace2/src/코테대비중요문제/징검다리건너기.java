@@ -8,36 +8,32 @@ public class 징검다리건너기 {
 	}
 
 	public static int solution(int[] stones, int k) {
-		return binarySearch(stones, k);
-	}
-
-	private static int binarySearch(int[] stones, int k) {
-		long left = 0;
-		long right = Arrays.stream(stones)
+		int left = 0;
+		int right = Arrays.stream(stones)
 				.max()
 				.getAsInt();
 		int answer = 0;
-
 		while (left <= right) {
-			long pass = (left + right) / 2;
+			boolean isOkay = true;
+			int passed = (left + right) / 2;
 			int jump = 0;
-			boolean isAvailable = true;
 			for (int stone : stones) {
-				if (stone - pass <= 0) {
+				int realValue = stone - passed;
+				if (realValue <= 0) {
 					jump++;
 				} else {
 					jump = 0;
 				}
-				if (jump >= k) {
-					isAvailable = false;
+				if (jump == k) {
+					isOkay = false;
 					break;
 				}
 			}
-			if (isAvailable) {
-				answer = Math.max(answer, (int) pass + 1);
-				left = pass + 1;
+			if (isOkay) {
+				answer = Math.max(answer, passed + 1);
+				left = passed + 1;
 			} else {
-				right = pass - 1;
+				right = passed - 1;
 			}
 		}
 		System.out.println(answer);
