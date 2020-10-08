@@ -1,41 +1,44 @@
 package 그리디;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public class 회의실배정 {
-	static Scanner scanner = new Scanner(System.in);
-	static List<Meeting> meetings = new ArrayList<>();
+	static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-	public static void main(String[] args) {
-		int N = scanner.nextInt();
-		for (int i = 0; i < N; i++) {
-			int start = scanner.nextInt();
-			int end = scanner.nextInt();
-			meetings.add(new Meeting(start, end));
+	public static void main(String[] args) throws IOException {
+		int countOfOrder = Integer.parseInt(bufferedReader.readLine());
+		List<Meeting> meetings = new ArrayList<>();
+		for (int idx = 0; idx < countOfOrder; idx++) {
+			int[] order = Arrays.stream(bufferedReader.readLine().split(" "))
+					.mapToInt(Integer::parseInt)
+					.toArray();
+			meetings.add(new Meeting(order[0], order[1]));
 		}
-		meetings.sort(new Comparator<Meeting>() {
-			@Override
-			public int compare(Meeting o1, Meeting o2) {
-				if (o1.end > o2.end) {
+		meetings.sort((Meeting a, Meeting b) -> {
+			if (a.end > b.end) {
+				return 1;
+			} else if (a.end == b.end) {
+				if (a.start > b.start) {
 					return 1;
-				} else if (o1.end == o2.end) {
-					if (o1.start > o2.start) {
-						return 1;
-					}
 				}
-				return -1;
 			}
+			return -1;
 		});
+		solution(meetings);
+	}
 
-		int endTime = -1;
+	private static void solution(List<Meeting> meetings) {
+		int endTime = 0;
 		int count = 0;
 		for (Meeting meeting : meetings) {
 			if (meeting.start >= endTime) {
-				count++;
 				endTime = meeting.end;
+				count++;
 			}
 		}
 		System.out.println(count);
