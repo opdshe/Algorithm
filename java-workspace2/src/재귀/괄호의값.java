@@ -1,4 +1,4 @@
-package 백준.재귀;
+package 재귀;
 
 import java.util.Scanner;
 
