@@ -51,7 +51,7 @@ public class 인구이동 {
 					}
 				}
 			}
-			//국경 열린경우
+			//국경 열린 경우
 			if (chunk.size() != size * size) {
 				count++;
 				for (List<int[]> entry : chunk) {
