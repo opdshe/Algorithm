@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class 플로이드 {
-	static int INF = 100001;
+	static int INF = 0xfffffff;
 	static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
 	public static void main(String[] args) throws IOException {
