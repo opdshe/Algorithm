@@ -7,11 +7,11 @@ public class 피보나치수5 {
 
 	public static void main(String[] args) {
 		int target = scanner.nextInt();
-		int[] dp = new int[target + 1];
+		long[] dp = new long[target + 1];
 		System.out.println(fib(dp, target));
 	}
 
-	private static int fib(int[] dp, int target) {
+	private static long fib(long[] dp, int target) {
 		if (dp[target] != 0) {
 			return dp[target];
 		}
