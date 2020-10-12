@@ -1,11 +1,29 @@
-이름 = input("이름을 입력하세요. ")
-평점 = float(input("평균 학점을 입력하세요. :"))
-C학점 = int(input("C 학점의 개수를 입력하세요. :"))
-토익 = int(input("토익 점수를 입력하세요. : "))
+def solution(*args):
+    if len(args) == 0:
+        print("no input")
+        return
 
-결과 = True
-if C학점 >= 3 and 평점 <= 3.5:
-    결과 = False
-    if 토익 >= 950:
-        결과 = True
-print(이름 + " 지원자는  서류 평과 결과가 " + str(결과) + " 입니다.")
+    total_words = set()
+    if args[len(args)-1] == "u" or args[len(args)-1] == "l":
+        for idx in range(0, len(args) - 1):
+            input_string = args[idx]
+            if args[len(args) - 1] == "u":
+                input_string = input_string.upper()
+            elif args[len(args) - 1] == "l":
+                input_string = input_string.lower()
+            words = input_string.split(" ")
+            for word in words:
+                total_words.add(word)
+    else:
+        for input_string in args:
+            words = input_string.split(" ")
+            for word in words:
+                total_words.add(word)
+
+    total_words = sorted(total_words)
+    print(total_words)
+
+
+solution("my Name is", "your Name is")
+solution("my Name is", "your Name is", "u")
+solution("my Name is", "your Name is", "l")

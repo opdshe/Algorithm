@@ -34,6 +34,7 @@ public class 삼번 {
 				}
 			}
 		}
+
 		int count = 0;
 		for (int score : scores) {
 			System.out.println(score);
