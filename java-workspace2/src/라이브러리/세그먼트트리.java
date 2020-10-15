@@ -1,48 +1,59 @@
 package 라이브러리;
 
+
 import java.util.Arrays;
 
 public class 세그먼트트리 {
 	public static void main(String[] args) {
 		int[] arr = {5, 3, 7, 9, 6, 4, 1, 2, 1};
-
-		SegmentTree segmentTree = new SegmentTree(arr, 9);
-
-		System.out.println(Arrays.toString(segmentTree.segmentArr));
-
-
+		SegmentTree segmentTree = new SegmentTree(arr, arr.length);
+		System.out.println(Arrays.toString(segmentTree.seg));
+		System.out.println(segmentTree.getSum(0, 3, 0, arr.length - 1, 1));
+		segmentTree.update(2, 2, 0, arr.length - 1, 1);
+		System.out.println(Arrays.toString(segmentTree.seg));
 	}
 
 	private static class SegmentTree {
+		int height;
+		long[] seg;
 
-		int[] segmentArr; // The array that stores segment tree nodes
-
-		SegmentTree(int[] arr, int n) {
-
-			//int x = (int) Math.ceil(Math.log(n) / Math.log(2));
-
-			//int segmentSize = (int) Math.pow(2, x) * 2 - 1;
-
-			//segmentArr = new int[segmentSize];
-			segmentArr = new int[n * 4];
-
-			init(arr, 0, n - 1, 1);
+		private SegmentTree(int[] arr, int arraySize) {
+			height = arraySize * 4;
+			seg = new long[height];
+			init(arr, 0, arraySize - 1, 1);
 		}
 
-		// node를 root로 하는 서브트리를 초기화하고, 이 구간의 최소치를 반환한다
-		int init(int[] arr, int left, int right, int node) {
-
+		private long init(int[] arr, int left, int right, int node) {
+			//리프노드
 			if (left == right) {
-
-				return segmentArr[node] = arr[left];
+				return seg[node] = arr[left];
 			}
-
 			int mid = (left + right) / 2;
+			return seg[node] = init(arr, left, mid, node * 2) + init(arr, mid + 1, right, node * 2 + 1);
+		}
 
-			segmentArr[node] += init(arr, left, mid, node * 2);
-			segmentArr[node] += init(arr, mid + 1, right, node * 2 + 1);
+		//begin, end 는 검색하고자 하는 타겟 인덱스
+		private long getSum(int begin, int end, int left, int right, int node) {
+			if (end < left || right < begin) {
+				return 0;
+			} else if (begin <= left && right <= end) {
+				return seg[node];
+			} else {
+				int mid = (left + right) / 2;
+				return getSum(begin, end, left, mid, node * 2) + getSum(begin, end, mid + 1, right, node * 2 + 1);
+			}
+		}
 
-			return segmentArr[node];
+		private void update(int target, int diff, int left, int right, int node) {
+			if (!(left <= target && target <= right)) {
+				return;
+			}
+			seg[node] += diff;
+			if (left != right) {
+				int mid = (left + right) / 2;
+				update(target, diff, left, mid, node * 2);
+				update(target, diff, mid + 1, right, node * 2 + 1);
+			}
 		}
 	}
 }
