@@ -35,14 +35,11 @@ public class 중량제한 {
 
 	private static void solution(int countOfPlace, int[] target) {
 		int answer = 0;
-		Queue<Node> queue = new PriorityQueue<>(new Comparator<Node>() {
-			@Override
-			public int compare(Node o1, Node o2) {
-				if (o1.cost < o2.cost) {
-					return 1;
-				}
-				return -1;
+		Queue<Node> queue = new PriorityQueue<>((o1, o2) -> {
+			if (o1.cost < o2.cost) {
+				return 1;
 			}
+			return -1;
 		});
 		queue.add(new Node(target[0], Integer.MAX_VALUE));
 		int[] costs = new int[countOfPlace + 1];
