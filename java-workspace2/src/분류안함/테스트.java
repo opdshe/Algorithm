@@ -15,6 +15,9 @@ public class 테스트 {
 		// l가 r랑 같아질때 까지
 		while (left <= right) {
 			int mid = (left + right) / 2;
+			System.out.println("====================");
+			System.out.println("left " + left);
+			System.out.println("right " + right);
 			System.out.println("mid " + mid);
 			if (list.get(mid) < target) {
 				left = mid + 1;
