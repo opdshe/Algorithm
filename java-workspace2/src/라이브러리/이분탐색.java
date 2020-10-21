@@ -6,9 +6,10 @@ import java.util.List;
 public class 이분탐색 {
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(1, 1, 1, 1, 3, 3, 3, 5, 7, 9);
-		System.out.println(upper_bound(list, 1));
-		System.out.println(lower_bound(list, 1));
+		System.out.println(upper_bound(list, 2));
+		System.out.println(lower_bound(list, 2));
 
+		//upper - lower = 개수 (없으면 0나옴)
 	}
 
 	//target이 들어갈 idx 찾기 (가장 앞의 인덱스)

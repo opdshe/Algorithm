@@ -24,7 +24,7 @@ public class 두배열의합 {
 		}
 		initSubArray(subA, A, countOfA);
 		initSubArray(subB, B, countOfB);
-		int count = 0;
+		long count = 0;
 		for (int idx = 0; idx < subA.size(); idx++) {
 			long T = target - subA.get(idx);
 			count += upper_bound(subB, T) - lower_bound(subB, T);
