@@ -1,4 +1,4 @@
-package NHN;
+package 기출.NHN;
 
 import java.util.ArrayList;
 import java.util.Arrays;
