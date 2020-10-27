@@ -13,8 +13,10 @@ def comp(seq):
 
 
 def rev(seq):
-    seq_rev = "".join(reversed(seq))
-    return seq_rev
+    new_str = ""
+    for idx in range(len(seq) - 1, -1, -1):
+        new_str += seq[idx]
+    return new_str
 
 
 def rev_comp(seq):
@@ -35,12 +37,6 @@ if is_nucleotide:
     # 와 됐다...여기서 부터 하면됨#스텝 3로 들어가기->대문자를 소문자로 바꾸기!
 
     dna = dna.upper()
-    print(dna)
-
-    new_str = ""
-    for idx in range(len(dna) - 1, -1, -1):
-        new_str += dna[idx]
-    dna = new_str
     print(dna)
 
     # 여기서부터 다시 함
