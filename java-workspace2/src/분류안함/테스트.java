@@ -1,16 +1,17 @@
 package 분류안함;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class 테스트 {
+	static int cursor = 3;
+
 	public static void main(String[] args) {
-		List<Integer> list = new ArrayList<>();
-		for (int idx = 1; idx <= 5; idx++) {
-			list.add(idx);
-		}
-		list.remove(Integer.valueOf(1));
-		System.out.println(Arrays.toString(list.toArray()));
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.append("abcde");
+		test(stringBuilder);
+		System.out.println(stringBuilder);
+	}
+
+	private static void test(StringBuilder stringBuilder) {
+		stringBuilder.delete(0, cursor);
+		cursor = 0;
 	}
 }
