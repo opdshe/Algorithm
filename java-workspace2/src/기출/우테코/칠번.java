@@ -33,6 +33,7 @@ public class 칠번 {
 				count++;
 			}
 		}
+		// 반복문 끝나고 한 번 더 체크 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//
 		if (count == 1) {
 			stringBuilder.append(prev);
 		}
