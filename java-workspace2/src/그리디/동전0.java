@@ -1,6 +1,8 @@
 package 그리디;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Scanner;
 
 public class 동전0 {
@@ -8,26 +10,23 @@ public class 동전0 {
 
 	public static void main(String[] args) {
 		int countOfCoins = scanner.nextInt();
-		int[] coins = new int[countOfCoins];
+		List<Integer> coins = new ArrayList<>();
 		int target = scanner.nextInt();
 		for (int idx = 0; idx < countOfCoins; idx++) {
-			coins[idx] = scanner.nextInt();
+			coins.add(scanner.nextInt());
 		}
+		coins.sort(Comparator.reverseOrder());
 		solution(coins, target);
 	}
 
-	private static void solution(int[] coins, int target) {
-		int[] dp = new int[target + 1];
-		int INF = Integer.MAX_VALUE;
-		Arrays.fill(dp, INF);
-		dp[0] = 0;
-		for (int coin : coins) {
-			for (int num = coin; num <= target; num++) {
-				if (num - coin != INF) {
-					dp[num] = Math.min(dp[num], dp[num - coin] + 1);
-				}
+	private static void solution(List<Integer> coins, int target) {
+		int count = 0;
+		for (Integer coin : coins) {
+			if (target >= coin) {
+				count += target / coin;
+				target %= coin;
 			}
 		}
-		System.out.println(dp[target]);
+		System.out.println(count);
 	}
 }
