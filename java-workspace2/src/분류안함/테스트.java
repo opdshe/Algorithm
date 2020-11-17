@@ -1,18 +1,21 @@
 package 분류안함;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class 테스트 {
 
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<>();
-		list.add("1111");
-		list.add("2222");
-		list.sort(Comparator.reverseOrder());
-		System.out.println(Arrays.toString(list.toArray()));
+		Set<Set<Integer>> set = new HashSet<>();
+		Set<Integer> a = new HashSet<>();
+		Set<Integer> b = new HashSet<>();
+		a.add(1);
+		a.add(2);
+		b.add(1);
+		b.add(3);
+		set.add(a);
+		System.out.println(set.contains(b));
+
 	}
 
 }
