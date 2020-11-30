@@ -2,7 +2,7 @@ package 구현;
 
 public class 일이사나라의숫자 {
     public static void main(String[] args) {
-        solution(10);
+        solution(50000000);
     }
 
     public static String solution(int n) {
@@ -20,8 +20,9 @@ public class 일이사나라의숫자 {
             }
             result.insert(0, remainder);
         } while (n / 3 != 0);
-        result.insert(0, n);
-        int intValue = Integer.parseInt(result.toString());
-        return String.valueOf(intValue);
+        if (n != 0) {
+            result.insert(0, n);
+        }
+        return result.toString();
     }
 }
