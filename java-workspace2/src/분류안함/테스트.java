@@ -17,5 +17,4 @@ public class 테스트 {
 		System.out.println(set.contains(b));
 
 	}
-
 }
