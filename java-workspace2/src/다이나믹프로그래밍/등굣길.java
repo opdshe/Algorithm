@@ -1,7 +1,5 @@
 package 다이나믹프로그래밍;
 
-import java.util.Arrays;
-
 public class 등굣길 {
     static int MOD = 1000000007;
     static int maxRow;
@@ -14,41 +12,24 @@ public class 등굣길 {
     public static int solution(int m, int n, int[][] puddles) {
         maxRow = n;
         maxColumn = m;
-        int[][] dp = new int[maxRow][maxColumn];
-        for (int row = 0; row < maxRow; row++) {
-            Arrays.fill(dp[row], -1);
+        int[][] dp = new int[maxRow + 1][maxColumn + 1];
+        for (int[] puddle : puddles) {
+            dp[puddle[1]][puddle[0]] = -1;
         }
-        int answer = dfs(puddles, dp, 0, 0) % MOD;
-        return answer;
-    }
-
-    private static int dfs(int[][] puddles, int[][] dp, int row, int column) {
-        if (row == maxRow - 1 && column == maxColumn - 1) {
-            return 1;
-        }
-        if (dp[row][column] != -1) {
-            return dp[row][column] % MOD;
-        }
-        long sum = 0;
-        if (isAvailablePosition(row, column + 1)) {
-            boolean isNotMatch = Arrays.stream(puddles)
-                    .noneMatch((position) -> Arrays.equals(new int[]{position[0] - 1, position[1] - 1}, new int[]{row, column + 1}));
-            if (isNotMatch) {
-                sum += dfs(puddles, dp, row, column + 1);
+        dp[1][1] = 1;
+        for (int row = 1; row <= maxRow; row++) {
+            for (int column = 1; column <= maxColumn; column++) {
+                if (row == 1 && column == 1 || dp[row][column] != 0) {
+                    continue;
+                }
+                if (dp[row - 1][column] > 0) {
+                    dp[row][column] += (dp[row - 1][column]) % MOD;
+                }
+                if (dp[row][column - 1] > 0) {
+                    dp[row][column] += (dp[row][column - 1]) % MOD;
+                }
             }
         }
-        if (isAvailablePosition(row + 1, column)) {
-            boolean isNotMatch = Arrays.stream(puddles)
-                    .noneMatch((position) -> Arrays.equals(new int[]{position[0] - 1, position[1] - 1}, new int[]{row + 1, column}));
-            if (isNotMatch) {
-                sum += dfs(puddles, dp, row + 1, column);
-            }
-        }
-        return dp[row][column] = (int) (sum % MOD);
-    }
-
-    private static boolean isAvailablePosition(int nextRow, int nextColumn) {
-        return nextRow >= 0 && nextRow < maxRow &&
-                nextColumn >= 0 && nextColumn < maxColumn;
+        return dp[maxRow][maxColumn] % MOD;
     }
 }
