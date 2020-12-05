@@ -6,6 +6,8 @@ public class 테스트 {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println((int) 'A');
+        String A = "34";
+        String B = "35";
+        System.out.println(A.compareTo(B));
     }
 }
