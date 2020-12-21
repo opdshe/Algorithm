@@ -1,6 +1,8 @@
 package 기출.우테코2020;
 
 
+import java.util.Arrays;
+
 public class 칠번 {
 	static int[][] directions = new int[][]{{-1, 1}, {1, -1}};
 	static int currentDirection;
@@ -8,7 +10,7 @@ public class 칠번 {
 	static int currentX = 0;
 
 	public static void main(String[] args) {
-		solution(3, false);
+		solution(5, false);
 	}
 
 	public static int[][] solution(int n, boolean horizontal) {
@@ -52,10 +54,9 @@ public class 칠번 {
 			}
 
 		}
-	/*	for (int row = 0; row < n; row++) {
+		for (int row = 0; row < n; row++) {
 			System.out.println(Arrays.toString(answer[row]));
-		}*/
-
+		}
 		return answer;
 	}
 
