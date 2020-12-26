@@ -18,17 +18,27 @@ public class 균형잡힌세상 {
 
     private static boolean validate(String input) {
         Stack<Character> stack = new Stack<>();
-        for (int idx = 0; idx < input.length(); idx++) {
-            char current = input.charAt(idx);
-            if (current == '(' || current == '[') {
-                stack.push(current);
-            } else if (current == ')' && !stack.isEmpty() && stack.peek() == '(') {
-                stack.pop();
-            } else if (current == ']' && !stack.isEmpty() && stack.peek() == '[') {
-                stack.pop();
-            } else if (current == ')' || current == ']') {
-                stack.push(current);
+        try {
+            for (int idx = 0; idx < input.length(); idx++) {
+                char current = input.charAt(idx);
+                if (current == '(' || current == '[') {
+                    stack.push(current);
+                } else if (current == ')') {
+                    if (stack.peek() == '(') {
+                        stack.pop();
+                    } else {
+                        break;
+                    }
+                } else if (current == ']') {
+                    if (stack.peek() == '[') {
+                        stack.pop();
+                    } else {
+                        break;
+                    }
+                }
             }
+        } catch (Exception e) {
+            return false;
         }
         return stack.isEmpty();
     }
