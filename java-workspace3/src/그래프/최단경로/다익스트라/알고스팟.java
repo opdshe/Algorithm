@@ -1,4 +1,4 @@
-package 깊이우선탐색;
+package 그래프.최단경로.다익스트라;
 
 import java.util.*;
 
