@@ -22,7 +22,7 @@ public class 나무자르기 {
 
     private static long getMaxHeight(List<Integer> woodLengths, int minLength) {
         woodLengths.sort(Comparator.naturalOrder());
-        long left = 0;
+        long left = 1;
         long right = woodLengths.get(woodLengths.size() - 1);
         long maxHeight = 0;
         while (left <= right) {
