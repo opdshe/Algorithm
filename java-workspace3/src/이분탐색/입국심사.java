@@ -13,7 +13,7 @@ public class 입국심사 {
 		long right = (long) times[times.length - 1] * n;
 		long answer = right;
 
-		while (left < right) {
+		while (left <= right) {
 			long mid = (left + right) / 2;
 			long sum = 0;
 			for (int time : times) {
