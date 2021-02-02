@@ -1,4 +1,4 @@
-package 문자열.트라이;
+package 문자열;
 
 import java.io.BufferedReader;
 import java.io.IOException;
