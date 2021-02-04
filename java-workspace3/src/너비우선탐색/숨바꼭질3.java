@@ -1,4 +1,4 @@
-package 깊이우선탐색;
+package 너비우선탐색;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
