@@ -1,37 +1,15 @@
 package 분류안함;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class 테스트 {
-	static Account account = new Account();
-
-	public static void main(String[] args) throws InterruptedException {
-		Runnable task = new Task();
-		Thread thread1 = new Thread(task);
-		Thread thread2 = new Thread(task);
-		Thread thread3 = new Thread(task);
-		thread1.start();
-		thread2.start();
-		thread3.start();
-		Thread.sleep(10);
-		System.out.println(account.balance);
-	}
-
-	private static class Account {
-		int balance = 100000;
-
-		public void deposit(int amount) {
-			balance += amount;
-			System.out.println(balance + " " + Thread.currentThread());
-		}
-	}
-
-	public static class Task implements Runnable {
-
-		@Override
-		public void run() {
-			for (int idx = 0; idx < 10000; idx++) {
-				account.deposit(1);
-			}
-		}
+	public static void main(String[] args) {
+		List<Integer> a = Arrays.asList(1, 2, 3);
+		List<Integer> b = Arrays.asList(2, 3, 4);
+		List<Integer> common = new ArrayList<>(a);
+		common.retainAll(b);
+		System.out.println(Arrays.toString(common.toArray()));
 	}
 }
