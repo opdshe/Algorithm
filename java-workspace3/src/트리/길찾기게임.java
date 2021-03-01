@@ -5,10 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class 길찾기게임 {
-	public static void main(String[] args) {
-		solution(new int[][]{{5, 3}, {11, 5}, {13, 3}, {3, 5}, {6, 1}, {1, 3}, {8, 6}, {7, 2}, {2, 2}});
-	}
-
 	static List<Node> nodes = new ArrayList<>();
 
 	public static int[][] solution(int[][] nodeinfo) {
@@ -37,7 +33,23 @@ public class 길찾기게임 {
 			if (root == null) {
 				root = node;
 			} else {
-				root.add(node);
+				add(node, root);
+			}
+		}
+
+		private void add(Node node, Node root) {
+			if (root.x > node.x) {
+				if (root.left == null) {
+					root.left = node;
+				} else {
+					add(node, root.left);
+				}
+			} else {
+				if (root.right == null) {
+					root.right = node;
+				} else {
+					add(node, root.right);
+				}
 			}
 		}
 
@@ -70,22 +82,6 @@ public class 길찾기게임 {
 			this.idx = idx;
 			this.x = x;
 			this.y = y;
-		}
-
-		private void add(Node node) {
-			if (x > node.x) {
-				if (left == null) {
-					left = node;
-				} else {
-					left.add(node);
-				}
-			} else {
-				if (right == null) {
-					right = node;
-				} else {
-					right.add(node);
-				}
-			}
 		}
 
 		private void preOrder(List<Integer> list) {
