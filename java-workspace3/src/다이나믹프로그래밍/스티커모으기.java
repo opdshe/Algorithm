@@ -2,10 +2,13 @@ package 다이나믹프로그래밍;
 
 public class 스티커모으기 {
 	public static void main(String[] args) {
-		solution(new int[]{14, 6, 5, 11, 3, 9, 2, 10});
+		solution(new int[]{14});
 	}
 
 	public static int solution(int sticker[]) {
+		if (sticker.length == 1) {
+			return sticker[0];
+		}
 		int[] dp1 = new int[sticker.length + 1];
 		int[] dp2 = new int[sticker.length + 1];
 		dp1[0] = 0;
