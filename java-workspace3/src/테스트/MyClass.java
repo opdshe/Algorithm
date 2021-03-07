@@ -1,4 +1,8 @@
 package 테스트;
 
-public class MyClass extends MyAbstractClass {
+public class MyClass implements MyInterface {
+	@Override
+	public void print() {
+		System.out.println("myClass");
+	}
 }
