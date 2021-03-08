@@ -2,7 +2,7 @@ package 정렬;
 
 import java.util.Arrays;
 
-public class 버블소트 {
+public class 거품정렬 {
 	public static void main(String[] args) {
 		int[] array = new int[]{1, 5, 4, 2, 3, 7};
 		bubbleSort(array);
