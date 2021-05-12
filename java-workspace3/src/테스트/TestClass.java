@@ -1,32 +1,29 @@
 package 테스트;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+
+import java.util.regex.Pattern;
 
 public class TestClass {
 	public static void main(String[] args) {
-		List<Apple> apples = Arrays.asList(new Apple(3), new Apple(2), new Apple(1));
-		apples.sort(Comparator.comparing(Apple::getWeight));
-		apples.forEach(System.out::println);
+		Pattern pattern2 = Pattern.compile("[!@#$%^&*(),.?\":{}|<>]");
+		String test = "test string";
+		boolean result = pattern2.matcher(test).find();
+
+		solution(new int[][]{{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}});
 	}
 
-	private static class Apple {
-		private int weight;
-
-		public Apple(int weight) {
-			this.weight = weight;
+	public static int solution(int[][] triangle) {
+		int answer = 0;
+		int[][] dp = new int[triangle.length + 1][triangle.length + 1];
+		for (int row = 1; row <= triangle.length; row++) {
+			for (int column = 1; column <= row; column++) {
+				int value = triangle[row - 1][column - 1];
+				dp[row][column] = Math.max(dp[row - 1][column] + value, dp[row - 1][column - 1] + value);
+			}
 		}
-
-		public int getWeight() {
-			return weight;
+		for (int column = 1; column <= triangle.length; column++) {
+			answer = Math.max(answer, dp[triangle.length][column]);
 		}
-
-		@Override
-		public String toString() {
-			return "Apple{" +
-					"weight=" + weight +
-					'}';
-		}
+		return answer;
 	}
 }
